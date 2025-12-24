@@ -1,0 +1,15 @@
+2. Viewing File Contents
+First we need to create a file either by terminal or using the "nano <filename>" command
+
+Use cat to display the contents of /etc/passwd.
+command - cat passwd
+"cat" command used to fetch the content of file specified without opening it in terminal itsellf.
+
+
+Display only the first 5 lines of /etc/passwd using head.
+command - head -n 5 passwd
+"head" command itself states the head of content where "-n 5" specifies the required content
+
+Display only the last 5 lines of /etc/passwd using tail.
+command - tail -n 5 passwd
+"tail" command itself states the tail or bottom part of content where same as above "-n 5" specifies required content.
