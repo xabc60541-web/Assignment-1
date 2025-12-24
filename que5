@@ -1,0 +1,4 @@
+5. Downloading Files
+Use wget to download a file from a URL (e.g., https://example.com/sample.txt).
+command - wget https://sample-files.com/downloads/documents/txt/simple.txt
+"wget" command is used to download the required files from internet.
