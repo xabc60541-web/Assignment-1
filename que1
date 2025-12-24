@@ -1,0 +1,13 @@
+1. Creating and Renaming Files/Directories
+Create a directory named test_dir using mkdir.
+command -   mkdir test_dir
+"mkdir" is used to create new directories
+
+Inside test_dir, create an empty file called example.txt.
+command -  touch test_dir/example.txt
+"touch" command is used to create new files on specific locations
+
+
+Rename example.txt to renamed_example.txt using mv
+command -  mv test_dir/example.txt test_dir/renamed_example.txt
+"mv" command is used to move or rename the file based on the two arguements which user need to specify.
