@@ -1,0 +1,5 @@
+7. Working with Environment Variables
+Use export to set a new environment variable called MY_VAR with the value "Hello, Linux!".
+command -   export MY_VAR="Hello, Linux!"
+            echo $MY_VAR
+"export" command is used to make variables availible to shell, "echo" command is used to display the output on terminal, and "$MY_VAR" where $ symbol is used to access the value of the variable.
