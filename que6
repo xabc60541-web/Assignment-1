@@ -1,0 +1,6 @@
+6. Changing Permissions
+Create a file named secure.txt and change its permissions to read-only for everyone using chmod.
+command  -   touch secure.txt
+             chmod 444 secure.txt
+
+"touch" command is used to create new file, where "chmod" command used to modify the permissions and "4" means read only permission and "444" means Read only permission to Owner, Group and others. Similarly, we used "7" for write only.
