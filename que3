@@ -3,4 +3,4 @@
 
 Use grep to find all lines containing the word "root" in /etc/passwd.
 command - grep root passwd
-"grep" command is used to search any specific text pattern in the content. in our case, we used "root" as a pattern identifier.
+"grep" command is used to search any specific text pattern in the content. in our case, we used "root" as a pattern identifier and "passwd" is the file where we require patterns.
