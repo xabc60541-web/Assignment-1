@@ -1,0 +1,12 @@
+4. Zipping and Unzipping
+Initially we need to install the required libraries using the command "sudo apt install zip unzip"
+
+Compress the test_dir directory into a file named test_dir.zip using zip.
+command -   zip -r test_dir.zip test_dir
+"zip" command is used to create a compressed zip following "-r" denotes recursive to handle sub direcotires and "test_dir.zip" stands for name of the zipped file and "test_dir" is the directory which is zipped.
+
+
+Unzip test_dir.zip into a new directory named unzipped_dir.
+command -   mkdir unzipped_dir
+            unzip test_dir.zip -d unzipped_dir
+"unzip" command used to decompress a zip file with "test_dir.zip" specifies the file that is to be decompressed and "-d unzipped_dir" specifies the destination.
